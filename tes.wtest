@@ -1,0 +1,17 @@
+import mascot_viurtual_wollok.*
+
+    test "Test para verificar la energia de la mascota"{
+
+        const pepita = new Mascot(name = "Pepita", type = "Perro", owner_name = "Tester")
+
+        pepita.be_happy_mascot("alimentar", new Fruts(name = "Manzana", energy_regeneration = 100))
+
+        // Verifica que la energia de Pepita sea 100
+        assert(pepita.energy == 100)
+
+        // Verifica que la barra de aburrimiento de Pepita sea 0
+        
+        assert(pepita.bored_bar == 0)// Verifica que la energia de Pepita sea igual a 100{
+
+    assert.equals(100, pepita.energia())
+    }

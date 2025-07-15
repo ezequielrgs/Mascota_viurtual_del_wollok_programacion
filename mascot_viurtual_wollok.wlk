@@ -1,4 +1,4 @@
-import wollok.vm.*
+
 class Mascot{
 
     const property name 
@@ -184,3 +184,4 @@ const cat = new Mascot(name = "Gats", type = "Gato", owner_name = "tu") //gato
 //---------------------------------------------------------------------------------------
 
 const lizar = new Mascot(name = "La", type = "Cocodrilo", owner_name ="tu") //lagarto
+
